@@ -1,0 +1,34 @@
+{
+  "author": "Alan Ellingson",
+  "name": "alanellingson-travelrecommendations",
+  "description": "A simple way to view the nearby check-ins of your friends on a map.",
+  "version": "0.0.9",
+  "homepage": "https://github.com/AlanEllingson/TravelRecommendations",
+  "repository": {
+    "type": "app",
+    "title": "Travel Recs",
+    "status": "stable",
+    "static": true,
+    "handle": "alanellingson-travelrecommendations",
+    "uses": {
+      "services": [
+        "twitter",
+        "foursquare",
+        "instagram"
+      ],
+      "types": [
+        "places"
+      ]
+    },
+    "update": true,
+    "github": "https://github.com/AlanEllingson/TravelRecommendations",
+    "url": "https://github.com/AlanEllingson/TravelRecommendations"
+  },
+  "engines": {
+    "node": ">=0.4.9"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "scripts": {}
+}
